@@ -1,5 +1,6 @@
 Template.teleport.onRendered(function () {
-  this.teleported = Blaze.render(this.view.templateContentBlock, document.body);
+  const destination = this.data.destination || document.body;
+  this.teleported = Blaze.render(this.view.templateContentBlock, destination);
 });
 
 Template.teleport.onDestroyed(function () {

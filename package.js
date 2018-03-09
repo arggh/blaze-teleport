@@ -1,6 +1,6 @@
 Package.describe({
   name: 'arggh:teleport',
-  version: '1.0.0',
+  version: '1.0.1',
   summary: '',
   git: '',
   documentation: 'README.md'
