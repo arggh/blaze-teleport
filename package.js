@@ -8,9 +8,9 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.use([
-    'ecmascript',
-    'templating',
-    'blaze',
+    'ecmascript@1.1.8',
+    'templating@1.1.1',
+    'blaze@2.1.2',
   ]);
 
   api.addFiles([
