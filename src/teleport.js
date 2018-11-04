@@ -1,8 +1,7 @@
-Template.teleport.onRendered(function () {
+Template.Teleport.onRendered(function () {
   let parentNode = document.body;
 
   if (this.data && this.data.destination) {
-    
     if (this.data.destination instanceof Element) { // We accept Elements
       parentNode = this.data.destination;
     } else if (typeof this.data.destination === 'string') { // We also accept selectors
@@ -16,6 +15,6 @@ Template.teleport.onRendered(function () {
   this.teleported = Blaze.render(this.view.templateContentBlock, parentNode);
 });
 
-Template.teleport.onDestroyed(function () {
+Template.Teleport.onDestroyed(function () {
   Blaze.remove(this.teleported);
 });
