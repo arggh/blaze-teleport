@@ -8,7 +8,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.use([
-    'ecmascript@1.1.8',
+    'ecmascript@0.1.6',
     'templating@1.1.1',
     'blaze@2.1.2',
   ]);
