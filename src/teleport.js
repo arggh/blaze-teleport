@@ -1,3 +1,5 @@
+import './teleport.html';
+
 Template.Teleport.onRendered(function () {
   let parentNode = document.body;
 
