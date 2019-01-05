@@ -63,6 +63,15 @@ $ meteor add arggh:teleport
 </template>
 ```
 
+## Run the tests
+
+If you want to contribute and improve the package, make sure to run the tests.
+Clone the package and run the following command:
+
+```bash
+$ TEST_WATCH=1 meteor test-packages ./ --driver-package meteortesting:mocha
+```
+
 ## License
 
 Teleport is released under the [MIT License](http://opensource.org/licenses/MIT).
